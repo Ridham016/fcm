@@ -1,4 +1,5 @@
 <ion-header [translucent]="true">
+  <script src="cordova.js"></script>
   <ion-toolbar>
     <ion-title>
       Blank
@@ -14,7 +15,10 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong>FCM</strong>
+    <div>hasPermission: {{hasPermission}}</div>
+    <br />
+    <div>token: {{token}}</div>
+    <br />
   </div>
 </ion-content>
